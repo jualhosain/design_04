@@ -41,7 +41,8 @@ button.nav-link{
 
 #banner img{
     height: 100%;
-    width: 650px;
+    /* width: 650px;*/
+width: 100%
 }
 
 #banner {
