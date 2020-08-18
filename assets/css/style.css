@@ -3,11 +3,22 @@
     --pri: #3D37F1;
     --sec: #534D4D;
     --head-button: #FF8923;
+    --gradient1: linear-gradient(to bottom, #FBBA77, #DFA871);
+    --gradient2: linear-gradient(to bottom, #41EAE3, #2293B7);
+    --gradient3: linear-gradient(to bottom, #69529F, #463864);
+    --gradient4: linear-gradient(to bottom, #4386D2, #0962C5);
+    --gradient5: linear-gradient(to bottom, #A5A2F6, #564FD6);
+    --gradient6: linear-gradient(to bottom, #FF8088, #984141);
+    --social: #0A315A;
 }
 
 body{
     font-family: 'Lato',
     sans-serif;
+}
+
+p{
+    line-height: 1.8rem;
 }
 
 nav .navbar-brand img{
@@ -26,4 +37,169 @@ button.nav-link{
     border: none;
     background: var(--head-button);
     color: white!important;
+}
+
+#banner img{
+    height: 100%;
+    width: 650px;
+}
+
+#banner {
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+#banner h2{
+    font-size: 4rem;
+    color:var(--sec);
+    margin-bottom: 20px;
+}
+#banner p{
+    color:var(--sec);
+    font-weight: 500;
+}
+
+#banner button{
+     padding: .8rem 3rem !important;
+     border-radius: 3rem;
+     border: none;
+     background: var(--pri);
+     color: white !important;
+     margin: 30px 10px;
+}
+#services{
+    color: var(--sec);
+    background: var(--bg);
+}
+
+#services span{
+    color: var(--pri);
+    font-weight: 600;
+}
+
+#services h4{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.services_box{
+    margin: 10px 0;
+    padding: 2rem;
+    border-radius: 1px;
+    color: white;
+}
+
+.services_box .img {
+    height: 100px;
+    margin: 3.5rem 0 2.8rem 0;
+}
+.services_box img{
+    widows: 100%;
+    height: 100%;
+}
+.services_box h3{
+    font-weight: 300;
+}
+
+
+.services_box button{
+    font-size: 1rem;
+    padding: .6rem 2rem;
+    border-radius: 2rem;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: 700!important;
+    margin: 12px 0 13px;
+}
+
+.g1{
+    background: var(--gradient1);
+}
+
+.g2{
+    background: var(--gradient2);
+}
+
+.g3{
+    background: var(--gradient3);
+}
+
+.g4{
+    background: var(--gradient4);
+}
+
+.g5{
+    background: var(--gradient5);
+}
+
+.g6{
+    background: var(--gradient6);
+}
+
+
+#about_text img{
+    width: 600px;
+    height: auto;
+}
+
+.icon i{
+    font-size: 2rem;
+    background:var(--pri);
+    border-radius: 50%;
+    color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 45px;
+    height: 5px;
+    background: rgb(180, 180, 180);
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.video p{
+    padding-top: 1rem;
+}
+.footer_icon i{
+    font-size: 1rem;
+    width: 40px;
+    height: 40px;
+    background: var(--social);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right:.3rem;
+    color: white;
+    
+}
+
+footer img{
+    height: 35px;
+    margin-bottom: 1rem;
+}
+footer{
+    color: var(--sec);
+}
+.fp> p{
+    font-size: .8rem;
+}
+.credit{
+    font-size: .8rem;
+}
+
+footer .flo p{
+    color: var(--social)
+}
+footer .flo h4{
+    margin-bottom: 1.7rem;
+}
+.icons{
+    color:var(--social);
+    margin-right:.5rem;
 }
