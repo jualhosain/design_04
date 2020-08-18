@@ -1,0 +1,11 @@
+:root{
+    --bg: #FBFCFD;
+    --pri: #3D37F1;
+    --sec: #534D4D;
+    --head-button: #FF8923;
+}
+
+body{
+    font-family: 'Lato',
+    sans-serif;
+}
