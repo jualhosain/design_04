@@ -11,18 +11,18 @@ body{
 }
 
 nav .navbar-brand img{
-    height: 29px!important;
+    height: 34px!important;
 }
 
 nav .nav-link{
     /* color: white!important; */
-    font-weight: bold;
+    font-weight: 600;
     font-size: 1rem!important;
     margin: 0 .7rem!important;
 }
 button.nav-link{
-    padding: .5rem 2.3rem!important;
-    border-radius: 2rem;
+    padding: .8rem 3rem!important;
+    border-radius: 3rem;
     border: none;
     background: var(--head-button);
     color: white!important;
