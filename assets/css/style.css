@@ -9,3 +9,21 @@ body{
     font-family: 'Lato',
     sans-serif;
 }
+
+nav .navbar-brand img{
+    height: 29px!important;
+}
+
+nav .nav-link{
+    /* color: white!important; */
+    font-weight: bold;
+    font-size: 1rem!important;
+    margin: 0 .7rem!important;
+}
+button.nav-link{
+    padding: .5rem 2.3rem!important;
+    border-radius: 2rem;
+    border: none;
+    background: var(--head-button);
+    color: white!important;
+}
